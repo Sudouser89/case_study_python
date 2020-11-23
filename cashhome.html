@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>ABC Bank</title>
+</head>
+<body>
+    <h1>Welcome Cashier!</h1>
+    <button onclick="deposit()">deposit</button>
+    <button onclick="withdraw()">withdraw</button>
+    <button onclick="transfer()">transfer</button>
+    <button onclick="statement()">statement</button>
+    <button onclick="actsearch()">account search</button>
+    <button onclick="custsearch()">customer search</button>
+    <button onclick="trans()">print</button>
+
+    <script>
+        function deposit(){
+            window.location.replace("http://localhost/cgi-bin/deposit.py")
+        }
+        function withdraw(){
+            window.location.replace("http://localhost/cgi-bin/withdraw.py")
+        }
+        function transfer(){
+            window.location.replace("http://localhost/cgi-bin/transfer.py")
+        }
+        function statement(){
+            window.location.replace("http://localhost/cgi-bin/statement.py")
+        }
+        function actsearch(){
+            window.location.replace("http://localhost/cgi-bin/actsearch.py")
+        }
+        function custsearch(){
+            window.location.replace("http://localhost/cgi-bin/custsearch.py")
+        }
+        function trans(){
+            window.location.replace("http://localhost/cgi-bin/printtrans.py")
+        }
+    </script>
+</body>
+</html>

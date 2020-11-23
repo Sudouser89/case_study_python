@@ -1,0 +1,6 @@
+555555555,749627861,Active,Customer-creation-successful,18/11/2020-19:34:37,
+555555555,749627861,Active,Customer-updation-successful,18/11/2020-19:48:10,
+555555555,749627861,Active,Customer-deletion-successful,18/11/2020-19:48:44,
+999999999,846276249,Active,Customer-updation-successful,18/11/2020-20:56:09,
+999999999,846276249,Active,Customer-updation-successful,19/11/2020-13:16:01,
+555555555,368144618,Active,Customer-creation-successful,19/11/2020-13:18:10,

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>ABC Bank</title>
+</head>
+<body>
+    <h1>Welcome Admin!</h1>
+    <button onclick="create()">create user</button>
+    <button onclick="update()">update user</button>
+    <button onclick="deleted()">delete user</button>
+    <button onclick="createact()">create account</button>
+    <button onclick="deleteact()">delete account</button>
+    <button onclick="custat()">customer status</button>
+    <button onclick="acstat()">account status</button>
+    
+    <script>
+        function create(){
+            window.location.replace("http://localhost/creat.html")
+        }
+        function update(){
+            window.location.replace("http://localhost/cgi-bin/updateform.py")
+        }
+        function deleted(){
+            window.location.replace("http://localhost/cgi-bin/deleteform.py")
+        }
+        function createact(){
+            window.location.replace("http://localhost/cgi-bin/createact.py")
+        }
+        function deleteact(){
+            window.location.replace("http://localhost/cgi-bin/deleteact.py")
+        }
+        function custat(){
+            window.location.replace("http://localhost/cgi-bin/customerstat.py")
+        }
+        function acstat(){
+            window.location.replace("http://localhost/cgi-bin/actstat.py")
+        }
+    </script>
+</body>
+</html>
